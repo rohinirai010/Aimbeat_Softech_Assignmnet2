@@ -156,7 +156,7 @@ const Header = () => {
               <button className="w-full bg-black text-white px-6 py-2 rounded-lg font-medium hover:bg-gray-800 transition-colors mb-2">
                 Login
               </button>
-              <button className="w-full bg-white text-black px-6 py-2 rounded-lg font-medium hover:bg-orange-500 hover:text-white transition-colors">
+              <button className="w-full bg-white text-black px-6 py-2 rounded-lg font-medium hover:bg-[#FFC637] hover:text-white transition-colors">
                 Signup
               </button>
             </div>
