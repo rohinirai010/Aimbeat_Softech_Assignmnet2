@@ -11,7 +11,7 @@ const WhyUsSection = () => {
         <h2 className="text-orange-500 text-2xl font-bold mb-4">
           Why is QuickDaak the Trusted Partner for Scaling eCommerce Businesses?
         </h2>
-        <p className="text-gray-600 text-justify pr-[1rem]">
+        <p className="text-gray-600 text-justify lg:pr-[1rem]">
           At vero eos et accusamus et iusto odio dignissimos ducimus qui
           blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
           et quas molestias excepturi sint occaecati cupiditate non provident,
