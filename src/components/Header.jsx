@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="absolute  lg:h-[15rem] top-0 left-0 right-0 z-50 lg:z-10 bg-blue-500/80">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="px-[2rem] sm:px-[3rem] lg:px-[3rem] xl:px-[4rem]">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -18,7 +18,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex space-x-8">
+          <nav className="hidden lg:flex lg:space-x-[2rem] xl:space-x-[4.5rem]">
             <a
               href="#home"
               className="text-white hover:text-blue-100 font-medium"

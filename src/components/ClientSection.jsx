@@ -170,10 +170,10 @@ const ClientSection = () => {
             </div>
 
             <div className="hidden lg:block relative w-full">
-              <button onClick={handlePrev} className="absolute left-[30%]">
+              <button onClick={handlePrev} className="absolute left-[30%] bottom-[1.7rem]">
                 <ChevronLeft className="w-5 h-5 text-gray-400" />
               </button>
-              <button onClick={handleNext} className="absolute right-[30%]">
+              <button onClick={handleNext} className="absolute right-[30%] bottom-[1.7rem]">
                 <ChevronRight className="w-5 h-5 text-gray-400" />
               </button>
             </div>
