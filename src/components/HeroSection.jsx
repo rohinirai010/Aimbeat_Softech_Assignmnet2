@@ -4,7 +4,9 @@ import img1 from "../assets/img1.jpg";
 const StatsItem = ({ value, label }) => (
   <div className="text-center">
     <div className="text-2xl md:text-3xl font-bold text-gray-900">{value}</div>
-    <div className="text-sm md:text-base font-semibold text-gray-800">{label}</div>
+    <div className="text-sm md:text-base font-semibold text-gray-800">
+      {label}
+    </div>
   </div>
 );
 
@@ -13,7 +15,7 @@ const HeroSection = () => {
     { value: "350+", label: "Coverage" },
     { value: "10×", label: "Experience" },
     { value: "10+", label: "Clients" },
-    { value: "99.9%", label: "Satisfaction" }
+    { value: "99.9%", label: "Satisfaction" },
   ];
 
   return (
@@ -33,7 +35,7 @@ const HeroSection = () => {
                 </h2>
               </div>
 
-              {/* Search Bar - Updated for better responsiveness */}
+              {/* Search Bar */}
               <div className="flex w-full">
                 <input
                   type="text"

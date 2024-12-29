@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img3 from "../assets/img3.png"
+import img3 from "../assets/img3.png";
 
 const BenefitsSection = () => {
   const benefits = [
@@ -26,11 +26,10 @@ const BenefitsSection = () => {
     },
   ];
 
-  // Set the first card as initially selected
   const [selectedCard, setSelectedCard] = useState(benefits[0].id);
 
   const handleCardClick = (id) => {
-    setSelectedCard(id); // Update the selected card's ID
+    setSelectedCard(id);
   };
 
   return (
@@ -38,11 +37,7 @@ const BenefitsSection = () => {
       <div className="px-[2rem] sm:px-[3rem] lg:px-[4rem] flex flex-col lg:flex-row gap-8 items-center">
         {/* Illustration Section */}
         <div className="flex-1">
-          <img
-            src={img3}
-            alt="Delivery Illustration"
-            className="rounded-lg"
-          />
+          <img src={img3} alt="Delivery Illustration" className="rounded-lg" />
         </div>
 
         {/* Benefits Cards Section */}

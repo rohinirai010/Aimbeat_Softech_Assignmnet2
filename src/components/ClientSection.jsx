@@ -3,7 +3,6 @@ import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import avatar1 from "../assets/avatar1.png";
 import avatar2 from "../assets/avatar2.png";
 import avatar3 from "../assets/avatar3.png";
-import img2 from "../assets/img2.png";
 
 const ClientSection = () => {
   const testimonials = [
@@ -78,15 +77,30 @@ const ClientSection = () => {
     const stars = [];
 
     for (let i = 0; i < fullStars; i++) {
-      stars.push(<Star key={`full-${i}`} className="w-5 h-5 text-yellow-400 fill-current" />);
+      stars.push(
+        <Star
+          key={`full-${i}`}
+          className="w-5 h-5 text-yellow-400 fill-current"
+        />
+      );
     }
 
     if (hasHalfStar) {
-      stars.push(<Star key="half" className="w-5 h-5 text-yellow-400 fill-current opacity-50" />);
+      stars.push(
+        <Star
+          key="half"
+          className="w-5 h-5 text-yellow-400 fill-current opacity-50"
+        />
+      );
     }
 
     for (let i = 0; i < emptyStars; i++) {
-      stars.push(<Star key={`empty-${i}`} className="w-5 h-5 text-gray-300 fill-current" />);
+      stars.push(
+        <Star
+          key={`empty-${i}`}
+          className="w-5 h-5 text-gray-300 fill-current"
+        />
+      );
     }
 
     return stars;
@@ -98,7 +112,9 @@ const ClientSection = () => {
         <div className="flex flex-col items-center text-center">
           <div className="flex flex-row items-center mb-[1.5rem]">
             <div>
-              <h2 className="text-2xl sm:text-4xl font-bold mb-6 text-[#383636]">What our Clients Say</h2>
+              <h2 className="text-2xl sm:text-4xl font-bold mb-6 text-[#383636]">
+                What our Clients Say
+              </h2>
               <p className="text-[#8e8c8c] text-sm sm:text-base">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod.

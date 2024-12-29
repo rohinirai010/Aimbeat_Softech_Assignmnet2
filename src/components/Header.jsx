@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,29 +19,78 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex space-x-8">
-            <a href="#home" className="text-white hover:text-blue-100 font-medium">Home</a>
+            <a
+              href="#home"
+              className="text-white hover:text-blue-100 font-medium"
+            >
+              Home
+            </a>
             <div className="relative group">
-              <a href="#features" className="text-white hover:text-blue-100 font-medium flex items-center">
+              <a
+                href="#features"
+                className="text-white hover:text-blue-100 font-medium flex items-center"
+              >
                 Features
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                <svg
+                  className="w-4 h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
                 </svg>
               </a>
             </div>
             <div className="relative group">
-              <a href="#shipping" className="text-white hover:text-blue-100 font-medium flex items-center">
+              <a
+                href="#shipping"
+                className="text-white hover:text-blue-100 font-medium flex items-center"
+              >
                 Shipping Tools
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                <svg
+                  className="w-4 h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
                 </svg>
               </a>
             </div>
-            <a href="#blogs" className="text-white hover:text-blue-100 font-medium">Blogs</a>
+            <a
+              href="#blogs"
+              className="text-white hover:text-blue-100 font-medium"
+            >
+              Blogs
+            </a>
             <div className="relative group">
-              <a href="#order" className="text-white hover:text-blue-100 font-medium flex items-center">
+              <a
+                href="#order"
+                className="text-white hover:text-blue-100 font-medium flex items-center"
+              >
                 Track Order
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                <svg
+                  className="w-4 h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
                 </svg>
               </a>
             </div>
@@ -72,19 +121,34 @@ const Header = () => {
         {isMenuOpen && (
           <div className="lg:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <a href="#home" className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md">
+              <a
+                href="#home"
+                className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md"
+              >
                 Home
               </a>
-              <a href="#features" className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md">
+              <a
+                href="#features"
+                className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md"
+              >
                 Features
               </a>
-              <a href="#shipping" className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md">
+              <a
+                href="#shipping"
+                className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md"
+              >
                 Shipping Tools
               </a>
-              <a href="#blogs" className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md">
+              <a
+                href="#blogs"
+                className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md"
+              >
                 Blogs
               </a>
-              <a href="#order" className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md">
+              <a
+                href="#order"
+                className="block px-3 py-2 text-white font-medium hover:bg-blue-600 rounded-md"
+              >
                 Track Order
               </a>
             </div>

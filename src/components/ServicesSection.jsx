@@ -11,32 +11,38 @@ const ServicesSection = () => {
   const services = [
     {
       title: "Domestic Shipping",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      icon: <LiaShippingFastSolid />, 
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      icon: <LiaShippingFastSolid />,
     },
     {
       title: "Fulfillment",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       icon: <LuNotepadText />,
     },
     {
       title: "Quick",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       icon: <SlEnergy />,
     },
     {
       title: "Cross Border Trade",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       icon: <GiTrade />,
     },
     {
       title: "Checkout",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       icon: <MdShoppingCartCheckout />,
     },
     {
       title: "Engage 360",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       icon: <TbRotate360 />,
     },
   ];
@@ -62,7 +68,9 @@ const ServicesSection = () => {
               <h3 className="font-semibold text-gray-800 text-xl">
                 {service.title}
               </h3>
-              <p className="text-gray-600 text-sm mt-2">{service.description}</p>
+              <p className="text-gray-600 text-sm mt-2">
+                {service.description}
+              </p>
             </div>
           ))}
         </div>

@@ -5,9 +5,7 @@ import ghPages from 'vite-plugin-gh-pages';
 export default defineConfig({
   plugins: [
     react(),
-    ghPages({
-      branch: 'gh-pages',
-    }),
+    ghPages(), 
   ],
-  base: '/Aimbeat_Softech_Assignmnet2/', 
+  base: '/Aimbeat_Softech_Assignmnet2/',  
 });
