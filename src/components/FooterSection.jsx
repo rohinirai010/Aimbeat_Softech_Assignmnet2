@@ -14,7 +14,7 @@ const FooterSection = () => {
     <div className="relative w-full">
       <footer className="min-h-[32rem] relative z-10 left-0 right-0 w-full bg-gradient-to-b from-blue-500/90 to-blue-600/90">
         {/* Content Container */}
-        <div className="px-[2rem] sm:px-[4rem] lg:px-[5rem] pt-[16.5rem]">
+        <div className="px-[2rem] sm:px-[4rem] lg:px-[6rem] pt-[16.5rem]">
           {/* Logo and Description Section */}
           <div className="flex flex-col xl:flex-row gap-8 xl:gap-16">
             <div className="max-w-md">

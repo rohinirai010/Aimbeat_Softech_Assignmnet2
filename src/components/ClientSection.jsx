@@ -107,7 +107,7 @@ const ClientSection = () => {
   };
 
   return (
-    <div className="px-[2rem] sm:px-[3rem] lg:px-[5rem]">
+    <div className="px-[2rem] sm:px-[3rem] lg:px-[6rem]">
       <section className="bg-[#ffffff] shadow-lg rounded-xl relative top-[12rem] z-20 mt-[-20rem] overflow-hidden py-[3.5rem] px-[2rem] sm:px-[3rem] lg:px-[5rem]">
         <div className="flex flex-col items-center text-center">
           <div className="flex flex-row items-center mb-[1.5rem]">

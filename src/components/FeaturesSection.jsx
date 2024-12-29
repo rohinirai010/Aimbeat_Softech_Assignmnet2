@@ -40,6 +40,7 @@ const FeaturesSection = () => {
               icon={feature.icon}
               title={feature.title}
               description={feature.description}
+              className="transition-transform duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500 hover:text-white"
             />
           ))}
         </div>

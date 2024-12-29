@@ -50,7 +50,7 @@ const ServicesSection = () => {
   return (
     <section className="py-16">
       <div className="px-[2rem] sm:px-[3rem] lg:px-[4rem]">
-        <h2 className="text-3xl font-bold text-[#090985] uppercase mb-8">
+        <h2 className="text-3xl font-bold text-[#232352] uppercase mb-8">
           Our Services <br /> & Solutions Portfolio
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
